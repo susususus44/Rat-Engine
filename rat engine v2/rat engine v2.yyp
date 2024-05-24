@@ -65,6 +65,7 @@
     {"id":{"name":"scr_player_normal","path":"scripts/scr_player_normal/scr_player_normal.yy",},},
     {"id":{"name":"scr_checkPositionSolidAngle","path":"scripts/scr_checkPositionSolidAngle/scr_checkPositionSolidAngle.yy",},},
     {"id":{"name":"obj_platform","path":"objects/obj_platform/obj_platform.yy",},},
+    {"id":{"name":"joel","path":"sprites/joel/joel.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
