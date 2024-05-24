@@ -1,5 +1,10 @@
 view_enabled[0] = true
 view_visible[0] = true
+global.screenscale += mouse_wheel_up()
+global.screenscale -= mouse_wheel_down()
+if (global.screenscale < 1)
+	global.screenscale = 1
+window_set_size(global.screensize * global.screenscale, global.screensize * global.screenscale)
 if (collect != global.collect) {
 	collecttimer = 80
 	collect = global.collect
