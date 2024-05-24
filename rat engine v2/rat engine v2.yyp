@@ -56,6 +56,7 @@
     {"id":{"name":"spr_unownMovingPlatformTrigger","path":"sprites/spr_unownMovingPlatformTrigger/spr_unownMovingPlatformTrigger.yy",},},
     {"id":{"name":"spr_unownPlatform","path":"sprites/spr_unownPlatform/spr_unownPlatform.yy",},},
     {"id":{"name":"scr_getinput","path":"scripts/scr_getinput/scr_getinput.yy",},},
+    {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
     {"id":{"name":"spr_unownPixel","path":"sprites/spr_unownPixel/spr_unownPixel.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"scr_collisionLibraryCollision","path":"scripts/scr_collisionLibraryCollision/scr_collisionLibraryCollision.yy",},},
