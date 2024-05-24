@@ -47,6 +47,7 @@
     {"name":"spr_unownPixel","order":2,"path":"sprites/spr_unownPixel/spr_unownPixel.yy",},
     {"name":"obj_player","order":2,"path":"objects/obj_player/obj_player.yy",},
     {"name":"scr_collisionLibraryCollision","order":1,"path":"scripts/scr_collisionLibraryCollision/scr_collisionLibraryCollision.yy",},
+    {"name":"sfx_coin","order":4,"path":"sounds/sfx_coin/sfx_coin.yy",},
     {"name":"Yoshis_Island_OST___Flower_Garden__TubeRipper_com_","order":1,"path":"sounds/Yoshis_Island_OST___Flower_Garden__TubeRipper_com_/Yoshis_Island_OST___Flower_Garden__TubeRipper_com_.yy",},
     {"name":"spr_player_idle","order":1,"path":"sprites/spr_player_idle/spr_player_idle.yy",},
     {"name":"scr_player_jump","order":1,"path":"scripts/scr_player_jump/scr_player_jump.yy",},
