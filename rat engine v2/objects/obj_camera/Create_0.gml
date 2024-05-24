@@ -1,7 +1,10 @@
 window_set_showborder(true)
-window_set_size(512, 512)
+window_set_size(256, 256)
 surface_resize(application_surface, 256, 256)
 global.screensize = 256
+collect = 0
+collecttimer = 100
+drawycollect = 0
 target = obj_player
 offsetx = 0
 offsety = 0

@@ -1,3 +1,4 @@
+global.collect = 0
 scr_collision_init()
 scr_initinput()
 enum states {

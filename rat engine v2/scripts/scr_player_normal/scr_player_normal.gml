@@ -15,6 +15,7 @@ function scr_player_normal() {
 	if (hsp != 0)
 		xscale = sign(hsp)
 	if (key_jump2 && grounded) {
+		audio_play_sound(sfx_jump, 0, false)
 		vsp = -6
 		state = states.jump
 	}
