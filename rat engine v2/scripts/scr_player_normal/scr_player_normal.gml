@@ -5,10 +5,11 @@ function scr_player_normal() {
 		hsp -= 0.3
 	if (move == 1 && hsp < 3)
 		hsp += 0.3
-	image_xscale = move
 	}
 	else
 	{
 		hsp = approach(hsp, 0, 0.15)
 	}
+	if (hsp != 0)
+		xscale = sign(hsp)
 }
