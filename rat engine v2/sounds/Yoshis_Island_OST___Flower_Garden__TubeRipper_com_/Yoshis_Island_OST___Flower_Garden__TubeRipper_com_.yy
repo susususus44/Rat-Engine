@@ -19,5 +19,5 @@
   "sampleRate": 44100,
   "soundFile": "Yoshis_Island_OST___Flower_Garden__TubeRipper_com_.ogg",
   "type": 0,
-  "volume": 1.0,
+  "volume": 0.5,
 }

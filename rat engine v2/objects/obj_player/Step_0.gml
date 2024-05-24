@@ -8,3 +8,5 @@ switch state {
 		scr_player_jump()
 		break
 }
+if y > room_height + 260
+	y =0
