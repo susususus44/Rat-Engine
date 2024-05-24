@@ -1,5 +1,5 @@
 camx = clamp(camx, 0, room_height - surface_get_width(application_surface))
-camy = clamp(camx, 0, room_height - surface_get_width(application_surface))
+camy = clamp(camx, 0, room_height - surface_get_height(application_surface))
 view_enabled[0] = true
 view_visible[0] = true
 targetxscale = (target.object_index != obj_player ? target.image_xscale : target.xscale)
