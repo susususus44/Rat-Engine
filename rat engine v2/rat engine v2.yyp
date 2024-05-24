@@ -65,6 +65,7 @@
     {"id":{"name":"spr_unownPixel","path":"sprites/spr_unownPixel/spr_unownPixel.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"scr_collisionLibraryCollision","path":"scripts/scr_collisionLibraryCollision/scr_collisionLibraryCollision.yy",},},
+    {"id":{"name":"scr_player_jump","path":"scripts/scr_player_jump/scr_player_jump.yy",},},
     {"id":{"name":"spr_unownSidePlatform","path":"sprites/spr_unownSidePlatform/spr_unownSidePlatform.yy",},},
     {"id":{"name":"spr_player_mask","path":"sprites/spr_player_mask/spr_player_mask.yy",},},
     {"id":{"name":"scr_player_normal","path":"scripts/scr_player_normal/scr_player_normal.yy",},},

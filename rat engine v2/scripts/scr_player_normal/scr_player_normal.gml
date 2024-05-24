@@ -1,4 +1,6 @@
 function scr_player_normal() {
+	grav = 0.5
+	jumpstop = 0
 	move = (key_left + key_right)
 	if (move != 0) {
 	if (move == -1 && hsp > -3)
@@ -12,4 +14,8 @@ function scr_player_normal() {
 	}
 	if (hsp != 0)
 		xscale = sign(hsp)
+	if (key_jump2 && grounded) {
+		vsp = -6
+		state = states.jump
+	}
 }
