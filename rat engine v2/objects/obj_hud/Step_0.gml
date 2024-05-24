@@ -1,3 +1,4 @@
+index++
 if obj_pause.paused
 	target = -4
 else
