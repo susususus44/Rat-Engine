@@ -36,5 +36,5 @@ function wave(from, to, duration, offset) {
 }
 
 function instance_create(_x, _y, _obj, _depth = -50) {
-	instance_create_depth(_x, _y, _depth, _obj)
+	return instance_create_depth(_x, _y, _depth, _obj)
 }

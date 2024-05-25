@@ -1,0 +1,1 @@
+timer = string_length(str) * 15

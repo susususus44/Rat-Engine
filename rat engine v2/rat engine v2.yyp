@@ -45,6 +45,8 @@
     {"id":{"name":"spr_collect","path":"sprites/spr_collect/spr_collect.yy",},},
     {"id":{"name":"obj_message","path":"objects/obj_message/obj_message.yy",},},
     {"id":{"name":"scr_collisionFunctions","path":"scripts/scr_collisionFunctions/scr_collisionFunctions.yy",},},
+    {"id":{"name":"obj_cassfollower","path":"objects/obj_cassfollower/obj_cassfollower.yy",},},
+    {"id":{"name":"spr_cass","path":"sprites/spr_cass/spr_cass.yy",},},
     {"id":{"name":"sfx_pause","path":"sounds/sfx_pause/sfx_pause.yy",},},
     {"id":{"name":"scr_collisionLibraryPhysics","path":"scripts/scr_collisionLibraryPhysics/scr_collisionLibraryPhysics.yy",},},
     {"id":{"name":"spr_coinhud","path":"sprites/spr_coinhud/spr_coinhud.yy",},},
