@@ -6,7 +6,7 @@ if (global.screenscale < 1)
 	global.screenscale = 1
 window_set_size(global.screensize * global.screenscale, global.screensize * global.screenscale)
 targetxscale = (target.object_index != obj_player ? target.image_xscale : target.xscale)
-camera_set_view_size(view_camera[0], 256, 256)
+camera_set_view_size(view_camera[0], global.screensize, global.screensize)
 camx = (target.x - camera_get_view_width(view_camera[0]) / 2) + offsetx
 camy = (target.y - surface_get_height(application_surface) / 2) + offsety
 var _offsetxmultiplier = (target.hsp / 1.8)

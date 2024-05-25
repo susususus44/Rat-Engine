@@ -1,7 +1,7 @@
 global.screensize = 256
 global.screenscale = 1
 window_set_showborder(true)
-surface_resize(application_surface, 256, 256)
+surface_resize(application_surface, global.screensize, global.screensize)
 collect = 0
 collecttimer = 100
 drawycollect = 0
