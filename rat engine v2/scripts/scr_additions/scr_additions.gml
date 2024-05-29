@@ -35,6 +35,23 @@ function wave(from, to, duration, offset) {
 	return from + a4 + sin((((current_time * 0.001) + duration * offset) / duration) * (pi * 2)) * a4;	
 }
 
+/// @description
+/// @param x 	
+/// @param y
+/// @param obj
+/// @param depth
 function instance_create(_x, _y, _obj, _depth = -50) {
 	return instance_create_depth(_x, _y, _depth, _obj)
+}
+
+/// @description Returns a value that will wave back and forth between [from-to] over [duration] seconds
+/// @param str 	
+/// @param avatar sprite
+function show_avatar_message(argument0, argument1) {
+	if (instance_exists(obj_message))
+		instance_destroy(obj_message)
+	with (instance_create(0, 0, obj_message)) {
+		str = argument0
+		avatarspr = argument1
+	}
 }

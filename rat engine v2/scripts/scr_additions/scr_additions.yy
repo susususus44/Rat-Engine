@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "scr_mathFunctions",
+  "name": "scr_additions",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {

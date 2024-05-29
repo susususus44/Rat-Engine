@@ -4,6 +4,7 @@ scr_initinput()
 enum states {
 	normal,
 	jump,
+	turn,
 }
 jumpstop = 0
 xscale = 1
