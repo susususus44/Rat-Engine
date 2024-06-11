@@ -1,6 +1,6 @@
 with (instance_create(x, y, obj_follower))
 {
-	sprite_index = spr_player_idle
+	sprite_index = spr_playerC_idle
 	count = instance_number(obj_follower)
 }
 with (instance_create(x, y, obj_message))

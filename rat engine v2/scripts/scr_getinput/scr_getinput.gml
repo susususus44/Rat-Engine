@@ -5,6 +5,7 @@ function scr_initinput() { // K after global means keyboard, i'll add the contro
 	global.rightK = vk_right
 	global.jumpK = ord("Z")
 	global.startK = vk_escape
+	global.shiftK = vk_shift
 }
 function scr_getinput() {
 	key_up = keyboard_check(global.upK);
@@ -30,4 +31,8 @@ function scr_getinput() {
 	key_start = keyboard_check(global.startK);
 	key_start2 = keyboard_check_pressed(global.startK);
 	key_start3 = keyboard_check_released(global.startK);
+
+	key_run = keyboard_check(global.shiftK);
+	key_run2 = keyboard_check_pressed(global.shiftK);
+	key_run3 = keyboard_check_released(global.shiftK);
 }

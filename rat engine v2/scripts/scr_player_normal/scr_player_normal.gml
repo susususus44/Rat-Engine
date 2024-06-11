@@ -2,11 +2,12 @@ function scr_player_normal() {
 	grav = 0.5
 	jumpstop = 0
 	move = (key_left + key_right)
+	var hspacc = 0.3
 	if (move != 0) {
 	if (move == -1 && hsp > -3)
-		hsp -= 0.3
+		hsp -= hspacc
 	if (move == 1 && hsp < 3)
-		hsp += 0.3
+		hsp += hspacc
 	}
 	else
 	{
