@@ -24,6 +24,8 @@ function scr_player_normal() {
 	}
 	if (key_jump2 && grounded) {
 		audio_play_sound(sfx_jump, 0, false)
+		sprite_index = jumpspr
+		image_speed = 0.35
 		vsp = -6
 		state = states.jump
 	}

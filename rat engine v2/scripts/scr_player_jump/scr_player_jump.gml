@@ -11,6 +11,8 @@ function scr_player_jump(){
 	{
 		hsp = approach(hsp, 0, 0.15)
 	}
+	if (floor(image_index) == image_number - 1 && sprite_index == jumpspr)
+		sprite_index = fallspr
 	if (hsp != 0)
 		xscale = sign(hsp)
 	if (grounded && vsp >= 0)
