@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_ratengine",
-    "path": "sprites/spr_ratengine/spr_ratengine.yy",
+    "name": "spr_startup",
+    "path": "sprites/spr_startup/spr_startup.yy",
   },
   "spriteMaskId": null,
   "visible": true,
