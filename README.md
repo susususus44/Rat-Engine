@@ -1,6 +1,6 @@
 # Rat-Engine
 
-> [!e]
+> [!NOTE]
 > This is not finished. There will be placeholders or bugs
 
 A base for Rats VS Katz game made by deesanity, 
