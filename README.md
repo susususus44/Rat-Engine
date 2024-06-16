@@ -1,7 +1,7 @@
 # Rat-Engine
 
 > [!NOTE]
-> This is not finished. There will be placeholders or bugs
+> This is not finished. There will be placeholders and, or bugs
 
 A base for Rats VS Katz game made by deesanity, 
 but for modding and game making purposes the source code is public
