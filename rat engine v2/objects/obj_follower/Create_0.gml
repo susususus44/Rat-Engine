@@ -6,6 +6,8 @@ followqueue = ds_queue_create()
 lag_step = 10
 hsp = 0
 isnotmoving = 0
+idlespr = spr_cass
+movespr = spr_cassfollower
 enum followerstates {
 	normal,
 	teleport,
