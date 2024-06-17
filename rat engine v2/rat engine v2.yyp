@@ -78,6 +78,7 @@
     {"id":{"name":"obj_sidePlatform","path":"objects/obj_sidePlatform/obj_sidePlatform.yy",},},
     {"id":{"name":"par_collision","path":"objects/par_collision/par_collision.yy",},},
     {"id":{"name":"spr_unownMovingPlatformTrigger","path":"sprites/spr_unownMovingPlatformTrigger/spr_unownMovingPlatformTrigger.yy",},},
+    {"id":{"name":"obj_console","path":"objects/obj_console/obj_console.yy",},},
     {"id":{"name":"obj_collect","path":"objects/obj_collect/obj_collect.yy",},},
     {"id":{"name":"spr_unownPlatform","path":"sprites/spr_unownPlatform/spr_unownPlatform.yy",},},
     {"id":{"name":"spr_ukifollower","path":"sprites/spr_ukifollower/spr_ukifollower.yy",},},

@@ -1,0 +1,12 @@
+str = ""
+history = []
+length = 0
+opened = false
+showcursor = false
+lerpto = 0
+lerppos = 0
+failed = false
+command_list = ["room_goto - goes to a room: <room>", "display_message: <string>", "enter_history: <string>"]
+search = []
+depth = -1000
+alarm[0] = 20

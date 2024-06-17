@@ -52,6 +52,7 @@
     {"name":"spr_unownSlope","order":5,"path":"sprites/spr_unownSlope/spr_unownSlope.yy",},
     {"name":"obj_sidePlatform","order":3,"path":"objects/obj_sidePlatform/obj_sidePlatform.yy",},
     {"name":"spr_unownMovingPlatformTrigger","order":1,"path":"sprites/spr_unownMovingPlatformTrigger/spr_unownMovingPlatformTrigger.yy",},
+    {"name":"obj_console","order":17,"path":"objects/obj_console/obj_console.yy",},
     {"name":"obj_collect","order":4,"path":"objects/obj_collect/obj_collect.yy",},
     {"name":"spr_unownPlatform","order":3,"path":"sprites/spr_unownPlatform/spr_unownPlatform.yy",},
     {"name":"spr_ukifollower","order":2,"path":"sprites/spr_ukifollower/spr_ukifollower.yy",},
