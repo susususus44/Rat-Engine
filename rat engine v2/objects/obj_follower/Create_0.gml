@@ -12,6 +12,7 @@ enum followerstates {
 	normal,
 	teleport,
 }
+state = followerstates.normal
 scr_collision_init()
 depth = obj_player.depth + 1
 alarm[0] = 4

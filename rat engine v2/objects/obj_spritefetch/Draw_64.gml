@@ -1,0 +1,5 @@
+draw_set_font(Font1)
+draw_set_halign(fa_center)
+draw_text(window_get_width() / 2, (window_get_height() / 2) - 40, "loading")
+if (variable_instance_exists(id, "curloaded"))
+	draw_text(window_get_width() / 2, window_get_height() / 2, string_concat(curloaded, "/", spritecount))

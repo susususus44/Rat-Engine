@@ -9,6 +9,8 @@ targetxscale = (target.object_index != obj_player ? target.image_xscale : target
 camera_set_view_size(view_camera[0], global.screensize * zoom, global.screensize * zoom)
 camx = (target.x - camera_get_view_width(view_camera[0]) / 2) + offsetx
 camy = (target.y - camera_get_view_height(view_camera[0]) / 2) + offsety
+camx = clamp(camx, 0, room_width - camera_get_view_width(view_camera[0]))
+camy = clamp(camy, 0, room_height - camera_get_view_height(view_camera[0]))
 var _offsetxmultiplier = (target.hsp / 1.8)
 offsetx = approach(offsetx, (target.hsp != 0 ? 60 : 0) * targetxscale, (target.hsp != 0 ? _offsetxmultiplier : 2.5))
 camera_set_view_pos(view_camera[0], camx, camy)
