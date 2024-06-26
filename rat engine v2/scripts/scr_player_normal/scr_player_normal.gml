@@ -4,23 +4,28 @@ function scr_player_normal() {
 	move = (key_left + key_right)
 	var hspacc = 0.3
 	if (move != 0) {
-	if (move == -1 && hsp > -3)
-		hsp -= hspacc
-	if (move == 1 && hsp < 3)
-		hsp += hspacc
+		if (move == -1 && hsp > -3)
+			hsp -= hspacc
+		if (move == 1 && hsp < 3)
+			hsp += hspacc
 	}
-	else
-	{
+	else {
 		hsp = approach(hsp, 0, 0.15)
 	}
 	if (hsp != 0) {
+		var sprmove = movespr
+		if (xscale != move && move != 0)
+			sprmove = turnspr
 		xscale = sign(hsp)
-		sprite_index = movespr
+		sprite_index = sprmove
 		image_speed = hsp * 0.1
 	}
 	else
 	{
-		sprite_index = idlespr
+		var spridle = idlespr
+		if (key_up)
+			spridle = lookupspr
+		sprite_index = spridle
 		image_speed = 0.35
 	}
 	if (key_jump2 && grounded) {
@@ -29,5 +34,14 @@ function scr_player_normal() {
 		image_speed = 0.35
 		vsp = -6
 		state = states.jump
+	}
+	if (key_attack2) {
+		var audio = sfx_kick1
+		audio_play_sound(audio, 0, false)
+		audio_sound_pitch(audio, random_range(0.8, 1.2))
+		state = states.kick
+		sprite_index = choose(kick1spr, kick2spr, kick3spr)
+		image_index = 0
+		image_speed = 0.35
 	}
 }

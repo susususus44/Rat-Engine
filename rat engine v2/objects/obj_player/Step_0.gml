@@ -7,4 +7,7 @@ switch state {
 	case states.jump:
 		scr_player_jump()
 		break
+	case states.kick:
+		scr_player_kick()
+		break
 }
