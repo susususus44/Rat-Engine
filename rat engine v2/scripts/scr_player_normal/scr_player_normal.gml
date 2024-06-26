@@ -32,7 +32,14 @@ function scr_player_normal() {
 		audio_play_sound(sfx_jump, 0, false)
 		sprite_index = jumpspr
 		image_speed = 0.35
+		image_index = 0
 		vsp = -6
+		state = states.jump
+	}
+	if (!grounded) {
+		sprite_index = fallprepspr
+		image_speed = 0.35
+		image_index = 0
 		state = states.jump
 	}
 	if (key_attack2) {
@@ -43,5 +50,10 @@ function scr_player_normal() {
 		sprite_index = choose(kick1spr, kick2spr, kick3spr)
 		image_index = 0
 		image_speed = 0.35
+	}
+	if (key_down) {
+		state = states.crouch
+		sprite_index = crouchspr
+		image_index = 0
 	}
 }

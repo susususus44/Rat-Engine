@@ -5,6 +5,7 @@ enum states {
 	normal,
 	jump,
 	kick,
+	crouch,
 }
 jumpstop = 0
 xscale = 1
@@ -21,3 +22,4 @@ turnspr = spr_craig_turn
 kick1spr = spr_craig_kick1
 kick2spr = spr_craig_kick2
 kick3spr = spr_craig_kick3
+crouchspr = spr_craig_crouch

@@ -10,4 +10,7 @@ switch state {
 	case states.kick:
 		scr_player_kick()
 		break
+	case states.crouch:
+		scr_player_crouch()
+		break
 }
