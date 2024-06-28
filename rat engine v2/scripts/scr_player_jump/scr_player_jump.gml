@@ -28,4 +28,13 @@ function scr_player_jump(){
 		xscale = sign(hsp)
 	if (grounded && vsp >= 0)
 		state = states.normal
+	if (key_attack2) {
+		var audio = sfx_kick1
+		audio_play_sound(audio, 0, false)
+		audio_sound_pitch(audio, random_range(0.8, 1.2))
+		state = states.arialkick
+		sprite_index = choose(kickarial1spr)
+		image_index = 0
+		image_speed = 0.35
+	}
 }
