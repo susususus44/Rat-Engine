@@ -3,7 +3,7 @@ function scr_player_normal() {
 	jumpstop = 0
 	move = (key_left + key_right)
 	var hspacc = 0.3
-	if (move != 0) {
+	if (move != 0 && !place_meeting(x + move, y, obj_solid)) {
 		if (move == -1 && hsp > -3)
 			hsp -= hspacc
 		if (move == 1 && hsp < 3)
@@ -11,6 +11,8 @@ function scr_player_normal() {
 	}
 	else {
 		hsp = approach(hsp, 0, 0.15)
+		if (place_meeting(x + move, y, obj_solid))
+			hsp = 0
 	}
 	if (hsp != 0) {
 		var sprmove = movespr

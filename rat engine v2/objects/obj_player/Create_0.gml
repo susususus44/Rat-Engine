@@ -7,6 +7,9 @@ enum states {
 	kick,
 	arialkick,
 	crouch,
+	charging,
+	spit,
+	hurt,
 }
 jumpstop = 0
 xscale = 1
@@ -25,3 +28,4 @@ kick2spr = spr_craig_kick2
 kick3spr = spr_craig_kick3
 kickarial1spr = spr_craig_arialkick1
 crouchspr = spr_craig_crouch
+hurtspr = spr_craig_hurt

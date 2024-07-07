@@ -16,4 +16,7 @@ switch state {
 	case states.arialkick:
 		scr_player_arialkick()
 		break
+	case states.hurt:
+		scr_player_hurt()
+		break
 }
