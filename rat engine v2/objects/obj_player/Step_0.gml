@@ -20,3 +20,11 @@ switch state {
 		scr_player_hurt()
 		break
 }
+if (hurttimer < 0)
+	visible = true
+else
+	hurttimer--
+if (obj_player.state == states.kick || obj_player.state == states.arialkick)
+	instakill = true
+else
+	instakill = false

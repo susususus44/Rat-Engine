@@ -12,6 +12,8 @@ enum states {
 	hurt,
 	searching,
 }
+instakill = false
+hurttimer = 0
 jumpstop = 0
 xscale = 1
 move = 0

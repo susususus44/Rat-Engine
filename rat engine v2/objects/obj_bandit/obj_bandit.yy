@@ -5,6 +5,7 @@
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -29,12 +30,12 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_gusfollower",
-    "path": "sprites/spr_gusfollower/spr_gusfollower.yy",
+    "name": "spr_bandit_walk",
+    "path": "sprites/spr_bandit_walk/spr_bandit_walk.yy",
   },
   "spriteMaskId": {
-    "name": "spr_player_mask",
-    "path": "sprites/spr_player_mask/spr_player_mask.yy",
+    "name": "spr_nutspitter_mask",
+    "path": "sprites/spr_nutspitter_mask/spr_nutspitter_mask.yy",
   },
   "visible": true,
 }

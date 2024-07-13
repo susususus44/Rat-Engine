@@ -1,4 +1,6 @@
+scr_instakill()
 scr_collision()
+image_speed = 0.20
 switch (state) {
 	case states.normal:
 		scr_enemy_normal()
@@ -10,5 +12,4 @@ switch (state) {
 		scr_bandit_searching()
 		break
 }
-if (state == states.normal && collision_line(x, y, obj_player.x, obj_player.y, obj_solid, true, true)) {
-}
+_p_near = distance_to_object(obj_player) < 100
