@@ -1,7 +1,12 @@
 function scr_enemy_charging(){
-	hsp = (movespeed * image_xscale)
-	var goingtoturn = ((((!canfall ? !place_meeting(x + 20 * image_xscale, y + 2, par_collision) : 0) && grounded) && !place_meeting_slope(x, y +1)) || place_meeting_solid((x + 1 * image_xscale), y - 3))
-	if (goingtoturn) {
-		image_xscale *= -1
+	if (hsp != 0)
+		image_xscale = sign(hsp)
+	if (obj_player.x >= x)
+	{	
+		hsp = approach(hsp, 4, 0.1)
+	}
+	else
+	{
+		hsp = approach(hsp, -4, 0.1)
 	}
 }

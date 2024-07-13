@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_chargingenemy",
+  "name": "obj_bandit",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Enemies",
-    "path": "folders/Objects/Enemies.yy",
+    "name": "Bandit",
+    "path": "folders/Objects/Enemies/Bandit.yy",
   },
   "parentObjectId": null,
   "persistent": false,

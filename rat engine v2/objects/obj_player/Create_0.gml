@@ -10,6 +10,7 @@ enum states {
 	charging,
 	spit,
 	hurt,
+	searching,
 }
 jumpstop = 0
 xscale = 1

@@ -11,8 +11,8 @@ if (sprite_index == spr_nutspitter_spitprep && floor(image_index) == image_numbe
 	image_index = 0
 }
 if (sprite_index == spr_nutspitter_spit && floor(image_index) == 1 && !instance_exists(obj_nut)) {
-	alarm[0] = 50
-	with (instance_create(x, y, obj_nut)) {
+	alarm[0] = 150
+	with (instance_create(x + image_xscale * 5, y, obj_nut)) {
 		image_xscale = other.image_xscale
 	}
 }
