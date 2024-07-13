@@ -30,12 +30,12 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_bandit_walk",
-    "path": "sprites/spr_bandit_walk/spr_bandit_walk.yy",
+    "name": "spr_bandit_idle",
+    "path": "sprites/spr_bandit_idle/spr_bandit_idle.yy",
   },
   "spriteMaskId": {
-    "name": "spr_nutspitter_mask",
-    "path": "sprites/spr_nutspitter_mask/spr_nutspitter_mask.yy",
+    "name": "spr_bandit_mask",
+    "path": "sprites/spr_bandit_mask/spr_bandit_mask.yy",
   },
   "visible": true,
 }

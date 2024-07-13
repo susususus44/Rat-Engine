@@ -28,3 +28,5 @@ if (obj_player.state == states.kick || obj_player.state == states.arialkick)
 	instakill = true
 else
 	instakill = false
+if jumpstop && state != states.jump
+	jumpstop = 0

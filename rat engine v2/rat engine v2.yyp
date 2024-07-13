@@ -53,6 +53,7 @@
     {"id":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},},
     {"id":{"name":"obj_gusfollower","path":"objects/obj_gusfollower/obj_gusfollower.yy",},},
     {"id":{"name":"spr_bandit_walk","path":"sprites/spr_bandit_walk/spr_bandit_walk.yy",},},
+    {"id":{"name":"spr_bandit_mask","path":"sprites/spr_bandit_mask/spr_bandit_mask.yy",},},
     {"id":{"name":"spr_craig_kick1","path":"sprites/spr_craig_kick1/spr_craig_kick1.yy",},},
     {"id":{"name":"spr_unownMovingPlatform","path":"sprites/spr_unownMovingPlatform/spr_unownMovingPlatform.yy",},},
     {"id":{"name":"obj_slope","path":"objects/obj_slope/obj_slope.yy",},},

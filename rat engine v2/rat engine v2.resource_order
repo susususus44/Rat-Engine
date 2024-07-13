@@ -32,6 +32,7 @@
   "ResourceOrderSettings": [
     {"name":"obj_solid","order":6,"path":"objects/obj_solid/obj_solid.yy",},
     {"name":"obj_gusfollower","order":12,"path":"objects/obj_gusfollower/obj_gusfollower.yy",},
+    {"name":"spr_bandit_mask","order":5,"path":"sprites/spr_bandit_mask/spr_bandit_mask.yy",},
     {"name":"spr_craig_kick1","order":8,"path":"sprites/spr_craig_kick1/spr_craig_kick1.yy",},
     {"name":"obj_slope","order":4,"path":"objects/obj_slope/obj_slope.yy",},
     {"name":"obj_spritefetch","order":7,"path":"objects/obj_spritefetch/obj_spritefetch.yy",},
