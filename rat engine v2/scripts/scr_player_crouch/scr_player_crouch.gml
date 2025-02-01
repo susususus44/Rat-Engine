@@ -11,7 +11,7 @@ function scr_player_crouch(){
 		hsp = approach(hsp, 0, hspacc)
 	}
 	hsp = clamp(hsp, -2,2)
-	if (key_down) {
+	if (!key_down) {
 		state = states.normal
 	}
 	if (!grounded) {

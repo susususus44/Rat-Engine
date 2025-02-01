@@ -9,6 +9,6 @@ if (collect != global.collect) {
 }
 collecttimer--
 if target != -4
-	drawycollect = lerp(drawycollect, (obj_pause.paused == 1 || collecttimer > 0 || target.hsp == 0 && target.move = 0 ? 0 : 150), 0.1 + (collecttimer > 0) * 0.1)
+	drawycollect = 150
 else
 	drawycollect = lerp(drawycollect, 0, 0.2)
