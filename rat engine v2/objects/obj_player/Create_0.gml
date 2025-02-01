@@ -36,3 +36,4 @@ kickarial1spr = spr_craig_arialkick1
 crouchspr = spr_craig_crouch
 hurtspr = spr_craig_hurt
 runspr = spr_craig_run
+verticaljump = false

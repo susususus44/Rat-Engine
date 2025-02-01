@@ -119,7 +119,7 @@
     {"name":"spr_craig_fallprep","order":4,"path":"sprites/spr_craig_fallprep/spr_craig_fallprep.yy",},
     {"name":"spr_bandit_jump","order":3,"path":"sprites/spr_bandit_jump/spr_bandit_jump.yy",},
     {"name":"spr_bandit_search","order":2,"path":"sprites/spr_bandit_search/spr_bandit_search.yy",},
-    {"name":"obj_fade","order":23,"path":"objects/obj_fade/obj_fade.yy",},
+    {"name":"obj_fade","order":8,"path":"objects/obj_fade/obj_fade.yy",},
     {"name":"obj_music","order":4,"path":"objects/obj_music/obj_music.yy",},
     {"name":"obj_platform","order":2,"path":"objects/obj_platform/obj_platform.yy",},
     {"name":"joel","order":2,"path":"sprites/joel/joel.yy",},

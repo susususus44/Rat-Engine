@@ -11,8 +11,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Important",
+    "path": "folders/Objects/Important.yy",
   },
   "parentObjectId": null,
   "persistent": true,
@@ -30,10 +30,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_fade",
-    "path": "sprites/spr_fade/spr_fade.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

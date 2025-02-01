@@ -40,7 +40,13 @@ function scr_player_normal() {
 		sprite_index = jumpspr
 		image_speed = 0.35
 		image_index = 0
-		vsp = -6
+		vsp = -7
+		if (movespeed == 0) {
+			verticaljump = true
+			sprite_index = vertjumpspr
+		}
+		else
+			verticaljump = false
 		state = states.jump
 	}
 	if (!grounded) {
