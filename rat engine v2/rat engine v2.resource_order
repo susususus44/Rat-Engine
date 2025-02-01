@@ -93,6 +93,7 @@
     {"name":"obj_craigfollower","order":13,"path":"objects/obj_craigfollower/obj_craigfollower.yy",},
     {"name":"snd_startup","order":5,"path":"sounds/snd_startup/snd_startup.yy",},
     {"name":"scr_player_arialkick","order":4,"path":"scripts/scr_player_arialkick/scr_player_arialkick.yy",},
+    {"name":"spr_craig_verticalfallprep","order":18,"path":"sprites/spr_craig_verticalfallprep/spr_craig_verticalfallprep.yy",},
     {"name":"spr_craig_kick3","order":9,"path":"sprites/spr_craig_kick3/spr_craig_kick3.yy",},
     {"name":"spr_unownPixel","order":2,"path":"sprites/spr_unownPixel/spr_unownPixel.yy",},
     {"name":"spr_bandit_idle","order":1,"path":"sprites/spr_bandit_idle/spr_bandit_idle.yy",},

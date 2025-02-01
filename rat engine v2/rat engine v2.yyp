@@ -124,6 +124,7 @@
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
     {"id":{"name":"obj_nut","path":"objects/obj_nut/obj_nut.yy",},},
     {"id":{"name":"scr_player_arialkick","path":"scripts/scr_player_arialkick/scr_player_arialkick.yy",},},
+    {"id":{"name":"spr_craig_verticalfallprep","path":"sprites/spr_craig_verticalfallprep/spr_craig_verticalfallprep.yy",},},
     {"id":{"name":"spr_craig_kick3","path":"sprites/spr_craig_kick3/spr_craig_kick3.yy",},},
     {"id":{"name":"spr_unownPixel","path":"sprites/spr_unownPixel/spr_unownPixel.yy",},},
     {"id":{"name":"spr_bandit_idle","path":"sprites/spr_bandit_idle/spr_bandit_idle.yy",},},
