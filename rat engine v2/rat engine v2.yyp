@@ -79,6 +79,7 @@
     {"id":{"name":"obj_slopePlatform","path":"objects/obj_slopePlatform/obj_slopePlatform.yy",},},
     {"id":{"name":"scr_player_hurt","path":"scripts/scr_player_hurt/scr_player_hurt.yy",},},
     {"id":{"name":"spr_craig_kick2","path":"sprites/spr_craig_kick2/spr_craig_kick2.yy",},},
+    {"id":{"name":"rm_2","path":"rooms/rm_2/rm_2.yy",},},
     {"id":{"name":"spr_craig_jump","path":"sprites/spr_craig_jump/spr_craig_jump.yy",},},
     {"id":{"name":"spr_cassfollower","path":"sprites/spr_cassfollower/spr_cassfollower.yy",},},
     {"id":{"name":"scr_bandit","path":"scripts/scr_bandit/scr_bandit.yy",},},
@@ -164,6 +165,7 @@
     {"roomId":{"name":"rm_RATENGINE","path":"rooms/rm_RATENGINE/rm_RATENGINE.yy",},},
     {"roomId":{"name":"rm_1","path":"rooms/rm_1/rm_1.yy",},},
     {"roomId":{"name":"rm_enemytest","path":"rooms/rm_enemytest/rm_enemytest.yy",},},
+    {"roomId":{"name":"rm_2","path":"rooms/rm_2/rm_2.yy",},},
   ],
   "templateType": null,
   "TextureGroups": [
