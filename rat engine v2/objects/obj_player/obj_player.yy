@@ -35,8 +35,8 @@
     "path": "sprites/spr_craig_idle/spr_craig_idle.yy",
   },
   "spriteMaskId": {
-    "name": "spr_player_mask",
-    "path": "sprites/spr_player_mask/spr_player_mask.yy",
+    "name": "spr_craig_mask",
+    "path": "sprites/spr_craig_mask/spr_craig_mask.yy",
   },
   "visible": true,
 }

@@ -10,3 +10,5 @@ if (paused)
 	if key_jump2
 		instance_create(x, y, obj_message)
 }
+if (key_run)
+	audio_group_set_gain(audiogroup_music, 0, 0)

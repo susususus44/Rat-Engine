@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "Yoshis_Island_OST___Flower_Garden__TubeRipper_com_",
   "audioGroupId": {
-    "name": "audiogroup_default",
-    "path": "audiogroups/audiogroup_default",
+    "name": "audiogroup_music",
+    "path": "audiogroups/audiogroup_music",
   },
   "bitDepth": 1,
   "bitRate": 128,

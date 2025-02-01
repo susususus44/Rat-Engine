@@ -2,11 +2,12 @@ function scr_player_normal() {
 	grav = 0.5
 	jumpstop = 0
 	move = (key_left + key_right)
+	movespeed = hsp * sign(hsp)
 	var hspacc = 0.3
 	if (move != 0 && !place_meeting(x + move, y, obj_solid)) {
-		if (move == -1 && hsp > -3)
+		if (move == -1 && hsp > -4)
 			hsp -= hspacc
-		if (move == 1 && hsp < 3)
+		if (move == 1 && hsp < 4)
 			hsp += hspacc
 	}
 	else {
@@ -18,9 +19,13 @@ function scr_player_normal() {
 		var sprmove = movespr
 		if (xscale != move && move != 0)
 			sprmove = turnspr
+		else if (movespeed >= 4)
+			sprmove = runspr
 		xscale = sign(hsp)
 		sprite_index = sprmove
 		image_speed = hsp * 0.1
+		if (sprmove == runspr)
+			image_speed = hsp * 0.05
 	}
 	else
 	{

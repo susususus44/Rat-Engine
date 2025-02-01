@@ -34,9 +34,6 @@
     "name": "spr_nutspitter",
     "path": "sprites/spr_nutspitter/spr_nutspitter.yy",
   },
-  "spriteMaskId": {
-    "name": "spr_player_mask",
-    "path": "sprites/spr_player_mask/spr_player_mask.yy",
-  },
+  "spriteMaskId": null,
   "visible": true,
 }
