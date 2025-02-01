@@ -41,7 +41,7 @@ function scr_player_normal() {
 		image_speed = 0.35
 		image_index = 0
 		vsp = -7
-		if (movespeed == 0) {
+		if (movespeed <= 3) {
 			verticaljump = true
 			sprite_index = vertjumpspr
 		}
