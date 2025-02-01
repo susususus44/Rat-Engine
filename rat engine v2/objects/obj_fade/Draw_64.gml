@@ -1,3 +1,5 @@
+if (showimg)
+	draw_sprite(pauseimg, 0, 0, 0)
 if (!surface_exists(surf))
     surf = surface_create(surface_get_width(application_surface), surface_get_height(application_surface))
 surface_set_target(surf)
